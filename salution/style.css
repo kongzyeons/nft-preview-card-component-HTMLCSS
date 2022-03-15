@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit',sans-serif ;
+}
+
+body{
+    background:  hsl(217, 54%, 11%);
+    height: 100%;
+}
+
+.main{
+    /* border: 1px red solid; */
+    width: 500px;
+    height: 100%;
+    margin:5rem auto ;
+    text-align: center;
+    background:  hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 0 2rem;
+}
+
+.Im{
+    /* border: 1px red solid;   */
+    display: inline-block;
+    background: hsl(178, 100%, 50%) ;
+    margin-top:  2.5rem;
+    border-radius: 10px;
+    height: 400px;
+    position: relative;
+}
+
+.img_eq{
+    /* border: 1px red solid;   */
+    border-radius: 10px;
+    height: 400px;
+}
+
+.view {
+    /* border: 1px red solid;   */
+    position: absolute;
+    top: 43%;
+    left: 44.5%;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+.photo:hover .img_eq {
+    transition: .3s;
+    opacity: 0.5;
+  }
+.photo:hover .view {
+    transition: .3s;
+    opacity: 0.7;
+  }
+
+
+.headers{
+    /* border: 1px red solid;   */
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 30px;
+}
+.headers a{
+    color: hsl(0, 0%, 100%);
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.headers a:hover{
+    transition: .3s;
+    color: hsl(178, 100%, 50%) ;
+}
+
+.descrip{
+    /* border: 1px red solid;   */
+    color:  hsl(215, 51%, 70%);
+    text-align: left;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: 25px;
+}
+
+.navi{
+    /* border: 1px red solid;   */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    
+}
+
+.coin{
+    display: flex;
+    color:hsl(178, 100%, 50%) ;
+}
+
+.coin p{
+    margin-left: 0.5rem;
+    font-size: 22px ;
+}
+.coin svg{
+    /* border: 1px red solid; */
+    margin-top: 0.3rem;
+}
+
+.date{
+    /* border: 1px red solid; */
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    font-size: 22px ;
+    padding-right: 0.5rem;
+}
+.date svg{
+    /* border: 1px red solid; */
+    margin-top: 0.3rem;
+    margin-right: 0.5rem;;
+}
+
+.footer{
+    /* border: 1px red solid; */
+    border-top: 0.1px solid hsl(215, 51%, 70%);
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer img{
+    height: 40px;
+    border: 1px white solid;
+    border-radius: 50px;
+}   
+
+.footer p{
+    color: hsl(215, 51%, 70%);
+    padding-top :0.5rem;
+    padding-left: 1rem;
+    font-size: 22px ;
+}
+.footer p a{
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.footer p a:hover{
+    transition: .3s;
+    color: hsl(178, 100%, 50%) ;
+}
